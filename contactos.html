@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Fanpage - Contactos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5977/5977591.png" type="image/png">
+</head>
+<body>
+
+    <header class="header-fijo">
+        <h2 class="logo-interno">starbucks</h2>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fa-regular fa-heart"></i> INICIO</a></li>
+                <li><a href="nosotros.html"><i class="fa-solid fa-users"></i> NOSOTROS</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-pen"></i> BLOG</a></li>
+                <li><a href="galeria.html"><i class="fa-regular fa-image"></i> GALERÍA</a></li>
+                <li><a href="videos.html"><i class="fa-solid fa-video"></i> VIDEOS</a></li>
+                <li><a href="contactos.html" class="activo"><i class="fa-regular fa-envelope"></i> CONTACTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor-contactos">
+        <div class="tarjeta-contacto-formulario">
+            <div class="bloque-info-tabla">
+                <h3>Información de Contacto</h3>
+                <table class="tabla-contacto">
+                    <tr>
+                        <td class="icono-celda"><i class="fa-solid fa-location-dot"></i></td>
+                        <td><strong>Dirección:</strong></td>
+                        <td>Jr. Carabaya 552 - Lima, Perú<br>Jr. Centenario 751 - Lima, Perú</td>
+                    </tr>
+                    <tr>
+                        <td class="icono-celda"><i class="fa-solid fa-phone"></i></td>
+                        <td><strong>Teléfonos:</strong></td>
+                        <td>997 577 470 | 930 978 484<br>(01) 5335242</td>
+                    </tr>
+                    <tr>
+                        <td class="icono-celda"><i class="fa-solid fa-envelope"></i></td>
+                        <td><strong>Email:</strong></td>
+                        <td>info@starbucksfan.com</td>
+                    </tr>
+                </table>
+
+                <div class="horario-atencion">
+                    <h4>Horario de Atención Presencial</h4>
+                    <p><strong>Área de Ventas:</strong> De Lunes a Viernes de 8:00 am a 6:00 pm.</p>
+                </div>
+            </div>
+
+            <div class="bloque-formulario">
+                <h3>Déjanos tu comentario</h3>
+                <form action="#" method="POST" class="formulario-datos">
+                    <div class="grupo-campo">
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+                    </div>
+                    
+                    <div class="grupo-campo">
+                        <label for="celular">Celular *</label>
+                        <input type="tel" id="celular" name="celular" placeholder="999 999 999" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="correo">Correo electrónico *</label>
+                        <input type="email" id="correo" name="correo" placeholder="nombre@dominio.com" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="ruc">RUC - Empresa (Opcional)</label>
+                        <input type="text" id="ruc" name="ruc" placeholder="Ingresa el RUC si aplica">
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Detalla tu experiencia o consulta con nuestro servicio..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="mapa-ubicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8656111308353!2d-77.0321135!3d-12.0527376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b6637e72b3%3A0x7d87a41ec5ff7c92!2sJir%C3%B3n%20Carabaya%20552%2C%20Lima%2015001!5e0!3m2!1ses!2spe!4v1700000000000" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="compartir">
+            <div class="redes oscuras">
+                <a href="https://x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Starbucks Fanpage. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
